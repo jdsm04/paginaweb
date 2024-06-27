@@ -1,0 +1,50 @@
+@import url('https://use.fontawesome.com/releases/v6.5.1/css/all.css');
+
+.container{
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+}
+
+.button{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    background: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px #111;
+    margin: 5px;
+    transition: 0.4s;
+}
+
+#tiktok{
+    color: #ff0050;
+}
+
+#linkedin{
+    color: #0e76a8;
+}
+
+#github{
+    color: #333;
+}
+
+span{
+    overflow: hidden;
+    transition: 0.3s;
+    text-align: center;
+    width: 0px;
+}
+
+.button:hover{
+    width: 160px;
+    border-radius: 5px;
+}
+
+.button:hover span{
+    width: 120px;
+}
